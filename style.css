@@ -1,0 +1,136 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f6f5f1;
+  color: #111;
+}
+
+/* HERO */
+.hero {
+  padding: 9rem 0 5rem;
+}
+
+.hero-title {
+  font-size: clamp(3.5rem, 7vw, 6rem);
+  font-weight: 900;
+  line-height: 0.95;
+}
+
+.stats {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+/* HERO CARD */
+.hero-card {
+  background: #f4b740;
+  padding: 2rem;
+  border-radius: 32px;
+  position: relative;
+}
+
+.hero-card img {
+  width: 100%;
+  border-radius: 24px;
+}
+
+.avatars {
+  position: absolute;
+  left: -20px;
+  top: 40%;
+}
+
+.avatars img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #f6f5f1;
+  display: block;
+  margin-bottom: -10px;
+}
+
+/* ABOUT */
+.about {
+  background: #000;
+  color: #fff;
+  padding: 6rem 0;
+}
+
+.marquee {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 800;
+}
+
+.about-text {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.about-img {
+  max-width: 420px;
+}
+
+/* SECTIONS */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+/* SKILLS */
+.skills {
+  padding: 6rem 0;
+}
+
+.skill-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* PROJECTS */
+.projects {
+  padding: 6rem 0;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1rem;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+/* CONTACT */
+.contact {
+  padding: 6rem 0;
+  background: #111;
+  color: #fff;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+}
+
+/* FOOTER */
+.footer {
+  padding: 2rem 0;
+}
+
+/* ANIMATION */
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.8s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
